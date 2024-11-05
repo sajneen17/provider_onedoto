@@ -1,16 +1,18 @@
-# provider_onedoto
+# Flutter Provider Counter App
 
-A new Flutter project.
+This is a Flutter application demonstrating the use of the `Provider` package for state management. The app includes various UI and UX enhancements such as animations, haptic feedback, dark mode toggle, and a dynamic counter with increment, decrement, and reset functionality.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **State Management with Provider**: Uses `Provider` for efficient state management of the counter.
+- **Increment & Decrement Counter**: Buttons to increase or decrease the counter value.
+- **Animated Counter Display**: Animated transitions for counter changes using `AnimatedSwitcher`.
+- **Theme Toggle**: Switch between light and dark mode with a toggle button on the AppBar.
+- **Snackbar Notifications**: Displays feedback messages each time the counter is changed.
+- **Reset Button**: Resets the counter to zero.
+- **Gradient Background**: Adds a visually appealing gradient to the app background.
+- **Dynamic Counter Color**: Counter value turns green if positive, red if negative.
+- **Current Date and Time**: Displays the current date and time, updated every second.
+- **Haptic Feedback**: Provides tactile feedback on button presses .
+- **Tooltip Descriptions**: Tooltips for increment, decrement, and theme toggle buttons for enhanced usability.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
